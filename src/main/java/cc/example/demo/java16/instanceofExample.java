@@ -1,0 +1,14 @@
+package cc.example.demo.java16;
+
+import java.util.ArrayList;
+
+public class instanceofExample {
+    public static void main(String[] args) {
+        Object obj = new ArrayList<>();
+
+        if (obj instanceof ArrayList list) {
+            list.add(10);
+        }
+        System.out.println(obj);
+    }
+}
