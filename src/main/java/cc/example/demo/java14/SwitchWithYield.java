@@ -15,4 +15,14 @@ public class SwitchWithYield {
                 yield "unknown";
         };
     }
+
+    private static String getText1(int number) {
+        return switch (number) {
+            case 1, 2 -> "one or two";
+            case 3 -> "three";
+            case 4, 5, 6 -> "four or five or six";
+
+            default -> throw new IllegalStateException("Unexpected value: " + number);
+        };
+    }
 }

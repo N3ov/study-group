@@ -3,6 +3,7 @@ package cc.example.demo.java14;
 public class StringMethodExpand {
     public static void main(String[] args) {
         String str = " hello world ";
+        System.out.println(str.stripIndent());
         System.out.println(str.strip());
 
         String str1 = "\"bezier\"";

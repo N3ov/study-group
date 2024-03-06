@@ -7,6 +7,7 @@ public class instanceofExample {
         Object obj = new ArrayList<>();
 
         if (obj instanceof ArrayList list) {
+//            ArrayList l = (ArrayList) obj;
             list.add(10);
         }
         System.out.println(obj);
