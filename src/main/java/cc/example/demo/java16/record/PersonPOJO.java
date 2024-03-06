@@ -1,4 +1,4 @@
-package cc.example.demo.java16;
+package cc.example.demo.java16.record;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
