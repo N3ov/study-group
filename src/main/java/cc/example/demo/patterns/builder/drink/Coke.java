@@ -1,6 +1,4 @@
-package cc.example.demo.patterns.builder;
-
-import java.math.BigDecimal;
+package cc.example.demo.patterns.builder.drink;
 
 public class Coke extends Beverage{
     @Override

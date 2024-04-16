@@ -1,4 +1,4 @@
-package cc.example.demo.patterns.builder;
+package cc.example.demo.patterns.builder.pack;
 
 public class Wrapper implements Packing {
     @Override
